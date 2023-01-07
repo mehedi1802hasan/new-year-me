@@ -1,0 +1,228 @@
+*{
+    margin:0;
+    font-family: 'Work Sans', sans-serif;
+}
+/*header style*/
+.header{
+    background-image:url('../images/banner/banner1.png');
+    background-size:cover;
+    width:1600;
+    height:850px;
+}
+.header-text{
+    margin-right:100px;
+    margin-top:;
+    text-align: right;
+    padding:300px 0px;
+}
+.btn-primary{
+    background: #F15B22;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border:0px;
+}
+.header-title{
+    font-weight:600;
+    font-size: 65px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.header-sub-title{
+    font-weight: 400;
+    font-size: 16px;
+    color: #291e1e;
+    margin-bottom:30px;
+              }
+/*main style start*/
+
+/*failur style*/
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+.section-failur{
+    display:flex;
+    gap:150px;
+  
+}
+.failur-contant{
+    width: 416px;
+height: 408px;
+margin-top:300px;
+}
+.image{
+    width:570px;
+height:640px;
+margin-top: 100px;
+}
+.failur-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.failur-sub-title{
+font-weight: 400;
+font-size: 16px;
+color: #444343;
+margin-top:24px;
+margin-bottom: 24px;
+}
+.unorderlist{
+    color: #444343;
+}
+.unorderlist li{
+list-style: none;
+}
+.awesome-icon{
+    color:green
+}
+/*out of project style*/
+
+/*my secret skill style*/
+.skill-section{
+    margin-top: 130px;
+    margin:0 auto;
+    color:rgb(12, 11, 1);
+}
+.skill-title{
+    margin-top:100px;
+text-align: center;
+font-weight: 700;
+font-size: 40px;
+margin-bottom: 5px;
+}
+.skill-description{
+    text-align: center;
+    font-weight:500;
+   font-size:20px;
+}
+.platfort-container{
+    display:flex;
+   gap:35px;
+   margin-top: 30px;
+               }
+
+.platform{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(203, 218, 3, 0.534);
+    border-radius: 5px;
+    padding: 30px;
+}
+.section-title{
+    margin-top:5px;
+    font-weight:400;
+    font-size: 30px;
+    color: #151414;
+}
+.section-sub-title{
+   font-size:20px;
+color: #737272;
+margin-top: 10px;
+
+}
+
+
+
+/*plan style*/ 
+
+.section-plan{
+    margin-top:120px;
+    margin-bottom:90px;;
+}
+.plan-title{
+    font-weight: 800px;
+    font-size:60px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+ 
+}
+.plan-item{
+    display: flex;
+}
+.plan-contant{
+gap:20px;
+margin-left:58px;
+}
+.section-title{
+    font-weight:400;
+    font-size: 30px;
+    color: #151414;
+}
+.section-sub-title{
+   font-size:20px;
+color: #737272;
+margin-top: 10px;
+
+}
+/*gradiant style*/
+.gradiant{
+    color:red;
+    width: 1140px;
+    height: 300px;
+    border-radius: 20px;
+    margin:0 auto;
+    
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('/images/watch.png');;}
+    .gradiant-contant{
+        padding:100px;
+    }
+    .gradiant-description{
+        color:white;
+        font-weight:60;
+       font-size: 30px;
+       margin-bottom:20px;
+    }
+.btn-common{
+    background-color:white;
+    color: #F15B22;
+    border:0px;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+/*footer style*/
+
+.footer-section{
+    margin-top:80px;
+    display: flex;
+    background-color: #151414;
+    
+
+}
+.footer-title{
+    color:white;
+ margin-bottom: 16px;
+}
+.footer-item{
+    gap:20px;
+padding:100px;
+margin-left:20px;
+}
+.footer-sub-title{
+    margin-bottom: 25px;
+    color: #FFFFFF;
+}
+.footer-icon{
+    gap:17px;
+    display: flex;
+    width: 47px;
+    height: 46px;
+}
+
+.input-email{
+    margin-bottom: 10px;
+    width: 200px;
+    height:24px;
+    border:2px solid rgb(236, 236, 236);
+    background-color: rgb(0, 0, 0);
+    border-radius:5px;
+}
