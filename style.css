@@ -4,14 +4,13 @@
 }
 /*header style*/
 .header{
-    background-image:url('/images/banner/banner1.png');
+    background-image:url('./images/banner/banner1.png');
     background-size:cover;
     width:1600;
     height:850px;
 }
 .header-text{
     margin-right:100px;
-    margin-top:;
     text-align: right;
     padding:300px 0px;
 }
@@ -168,7 +167,7 @@ margin-top: 10px;
     border-radius: 20px;
     margin:0 auto;
     
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('/images/watch.png');;}
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('./images/watch.png');;}
     .gradiant-contant{
         padding:100px;
     }
